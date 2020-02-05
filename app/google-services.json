@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921861612109",
+    "firebase_url": "https://phi-duong-app.firebaseio.com",
+    "project_id": "phi-duong-app",
+    "storage_bucket": "phi-duong-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921861612109:android:1a6e414f1be7648a407204",
+        "android_client_info": {
+          "package_name": "com.example.phiduongchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921861612109-53523tuvo5gjog2het9onatlj9o0sn83.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phiduongchat",
+            "certificate_hash": "b6a090b2b431797cf5c2fb2680a077da159c1faa"
+          }
+        },
+        {
+          "client_id": "921861612109-5vu32498051s0i4173qljf03gjd3bkhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUnrSPoOdoF9OH2dCszvpUyd_cGTS0V_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921861612109-5vu32498051s0i4173qljf03gjd3bkhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

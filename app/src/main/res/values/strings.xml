@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">WALRUS</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="password">Mật khẩu</string>
+    <string name="forgot_pass_word">Quên mật khẩu</string>
+    <string name="create_a_new_account">Tạo tài khoản mới</string>
+    <string name="username">Tên tài khoản</string>
+    <string name="email">Email</string>
+    <string name="repeat_password">Nhập lại mật khẩu</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="reset">Đổi mật khẩu</string>
+    <string name="confirmemail">Bạn sẽ nhận 1 cái email xác nhận thay đổi sau khi nhấn nút</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Thông tin</string>
+    <string name="type_a_message">Gõ tin nhắn vào...</string>
+    <string name="hello">Xin chào</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="change">Thay đổi</string>
+    <string name="your_new_name">Tên mới</string>
+    <string name="change_name_confirm">Click vào thay đổi sẽ dùng tên mới để hiển thị</string>
+    <string name="download_url_error">Tải url không thành công</string>
+    <string name="seen">Đã xem</string>
+    <string name="delivered">Đã gửi</string>
+    <string name="no_message">Không có tin nhắn</string>
+    <string name="you_cannot_send_empty_message">Bạn không thể gửi tin nhắn rỗng</string>
+    <string name="uploading">Đang load dữ liệu lên</string>
+    <string name="no_image_selected">Không có ảnh được chọn</string>
+    <string name="change_name">Đổi tên</string>
+    <string name="all_fields_are_required">Yêu cầu điền toàn bộ các ô</string>
+    <string name="successful">Thành công</string>
+    <string name="login_failed">Đăng nhập thất bại</string>
+    <string name="chat">Trò chuyện</string>
+    <string name="list">Danh sách</string>
+    <string name="group">Nhóm</string>
+    <string name="password_at_least_6_character">Mật khẩu tối thiểu 6 ký tự</string>
+    <string name="repeat_password_failed">Nhập lại mật khẩu không đúng</string>
+    <string name="you_cannot_register_with_this_email_or_password">Bạn không thể đăng ký tài khoản với email hoặc mật khẩu này</string>
+    <string name="please_check_your_email">Hãy kiểm tra email của bạn</string>
+    <string name="delete_message">Xóa tin nhắn</string>
+    <string name="are_you_sure_you_want_to_delete_this_message">Bạn có chắc rằng muốn xóa tin nhắn này không?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+
+
+
+    <string name="welcometowalrus">Chào mừng bạn đến Walrus</string>
+    <string name="loginorresgistertostart">Đăng nhập hoặc đăng ký để bắt đầu</string>
+</resources>

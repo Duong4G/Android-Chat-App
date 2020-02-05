@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".RegisterActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="@color/background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/backgroundforstart"
+            android:padding="16dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_a_new_account"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorText"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:inputType="textAutoCorrect"
+                android:hint="@string/username"
+                app:met_textColorHint="@color/colorText"
+                android:textSize="15sp"
+                app:met_textColor="@color/colorText"
+
+                app:met_floatingLabel="normal" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/email"
+                app:met_textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                app:met_textColorHint="@color/colorText"
+                android:textSize="15sp"
+                app:met_floatingLabel="normal" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/password"
+                app:met_textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/password"
+                app:met_textColorHint="@color/colorText"
+                android:textSize="15sp"
+                android:inputType="textPassword"
+                app:met_floatingLabel="normal" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/repeat_password"
+                app:met_textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/repeat_password"
+                app:met_textColorHint="@color/colorText"
+                android:textSize="15sp"
+                android:inputType="textPassword"
+                app:met_floatingLabel="normal" />
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="150dp"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

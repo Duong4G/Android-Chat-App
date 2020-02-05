@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeUserNameActivity">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background"
+        android:layout_below="@id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/backgroundforstart"
+            android:padding="16dp"
+            android:layout_marginTop="150dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/send_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textAutoCorrect"
+                app:met_floatingLabel="normal"
+                android:hint="@string/your_new_name"
+                app:met_textColorHint="@color/colorText"
+                android:textSize="15sp"
+                app:met_textColor="@color/colorText"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/button_change"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/change"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorText"
+                android:text="@string/change_name_confirm"
+                android:textSize="11sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
